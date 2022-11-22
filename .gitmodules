@@ -1,0 +1,3 @@
+[submodule "ConditionalDETR"]
+	path = ConditionalDETR
+	url = https://github.com/joakimjohnander/ConditionalDETR.git

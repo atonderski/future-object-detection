@@ -1,0 +1,7 @@
+torch
+torchvision
+opencv-python
+matplotlib
+nuscenes-devkit
+einops
+wandb
