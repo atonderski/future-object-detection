@@ -5,7 +5,6 @@ __pycache__
 *.png
 *.mp4
 logs/
-checkpoints/
 .idea/
 .DS_Store
 

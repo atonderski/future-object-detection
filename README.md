@@ -5,6 +5,8 @@ To get started, please check out the [Colab notebook](https://colab.research.goo
 
 ## Pretrained Models
 
+We provide pre-trained models on NuImages and NuScenes for a few prediction horizons. The AP50 scores are computed for **future object detection**, meaning that the model predicts all the future bounding boxes, and the score is the AP50 of the predicted bounding boxes against the ground truth of the future image. The exact training configurations can be found under `runs/`.
+
 | Model                | Horizon  | Dataset  | AP50 Car | AP50 Pedestrian | Link                                                                              |
 | -------------------- | -------- | -------- | -------- | --------------- | --------------------------------------------------------------------------------- |
 | Spatiotemporal + IMU | 500ms    | NuImages | 43.5     | 15.5            | [google drive](https://drive.google.com/file/d/1BkKvCfrJYORvRtPRAr5Uonltc4Nf4IGa) |
